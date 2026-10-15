@@ -1,4 +1,4 @@
-# Queue Node Redir
+# Queue Node 
 
 Base mínima para praticar filas com Node.js, RabbitMQ, PostgreSQL e Redis.
 
