@@ -1,0 +1,28 @@
+{
+  "name": "queue-node-redir",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "description": "Base para estudos de filas com Node.js, RabbitMQ, PostgreSQL e Redis",
+  "main": "src/server.js",
+  "scripts": {
+    "dev": "tsx --watch src/server.js",
+    "start": "node src/server.js"
+  },
+  "engines": {
+    "node": ">=20"
+  },
+  "dependencies": {
+    "amqplib": "^0.10.4",
+    "dotenv": "^16.4.5",
+    "express": "^4.21.1",
+    "pg": "^8.13.1",
+    "redis": "^4.7.0",
+    "tsx": "^4.23.15",
+    "typescript": "^7.0.2"
+  },
+  "devDependencies": {
+    "@types/amqplib": "^0.10.8",
+    "@types/express": "^5.0.6"
+  }
+}
